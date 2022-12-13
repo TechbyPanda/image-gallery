@@ -59,6 +59,8 @@ function submitImage(){
     </div>
     `
   }
+  load_image()
+  selectedImage = []
   left_box.innerHTML = images
 }
 
